@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log(\"Hello from Javscript!\");\nvar datetime = moment().format(\"MMMM Do YYYY, h:mm:ss a\");\nconsole.log(datetime);\n\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nconsole.log(\"Hello from Javscript!\");\nvar datetime = moment().format(\"MMMM Do YYYY, h:mm:ss a\");\nconsole.log(datetime);\nvar name = \"Jess\";\nvar dog = \"Mary Jane\";\nvar hobby = \"gardening\";\nconsole.log(\"\".concat(name, \" loves spending time with \").concat(dog, \" and \").concat(hobby));\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 
